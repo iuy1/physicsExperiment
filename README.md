@@ -19,17 +19,17 @@ $$s(\overline{x})=\frac{s(x_i)}{\sqrt{n}}$$
 
 通常 A 类标准不确定度由标准偏差 $s(x_i)$ 乘以 $\dfrac{t}{\sqrt n}$ 得到，即
 
-$$u_{{_{A}}}= \frac t{\sqrt {n}} \sqrt {\frac 1{n- 1}\sum _{i= 1}^{n}( x_{i}- \overline {x}) ^{2}}= \frac t{\sqrt {n}}s( x_{{_{I}}})$$
+$$u_A = \frac t{\sqrt {n}} \sqrt {\frac 1{n- 1}\sum _{i= 1}^{n}( x_{i}- \overline {x}) ^{2}}= \frac t{\sqrt {n}}s( x_i)$$
 
 在大多数普通物理实验教学中， 为了简便起见，一般就取 $\dfrac{t}{\sqrt n} \thickapprox 1$ , 即
 
-$$u_\mathrm{A}=s(x_i)$$
+$$u_A = s(x_i)$$
 
 ## 合成标准不确定度评定
 
-对于受多个误差来源影响的某直接测量量，被测量量 $X$ 的不确定度可能不止一项，设其有 $k$ 项，且各不确定度分量彼此独立，其协方差为零，则用方和根方式合成，称合成标准不确定度 $u_{\mathrm{C}}$
+对于受多个误差来源影响的某直接测量量，被测量量 $X$ 的不确定度可能不止一项，设其有 $k$ 项，且各不确定度分量彼此独立，其协方差为零，则用方和根方式合成，称合成标准不确定度 $u_C$
 
-$$u_{\mathrm{C}}=\sqrt{\sum_{i=1}^ku_i^2}$$
+$$u_C = \sqrt{\sum_{i=1}^k u_i^2}$$
 
 ## 间接测量量不确定度的评定
 
