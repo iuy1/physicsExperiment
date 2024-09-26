@@ -5,7 +5,7 @@
 ## A 类标准不确定度评定
 
 对直接测量来说，如果在相同条件下对某物理量 $X\text{进行了}_n$
-次独立重复测量，其测量值分别为 $x_1,x_2,x_3,\cdots,x_n$ ,用 $\bar{x}$ 来表示平均值，则
+次独立重复测量，其测量值分别为 $x_1,x_2,x_3,\cdots,x_n$ ,用 $\overline{x}$ 来表示平均值，则
 
 $$\overline{x}=\frac{1}{n}(x_{1}+x_{2}+x_{3}+\cdots+x_{n})=\frac{1}{n}\sum_{i=1}^{n}x_{i}$$
 
@@ -17,11 +17,11 @@ $$s(x_i)=\sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i-\overline{x})^2}$$
 
 $$s(\overline{x})=\frac{s(x_i)}{\sqrt{n}}$$
 
-通常 A 类标准不确定度由标准偏差 $s(x_i)$ 乘以 $t/\sqrt n$ 得到，即
+通常 A 类标准不确定度由标准偏差 $s(x_i)$ 乘以 $\dfrac{t}{\sqrt n}$ 得到，即
 
-$$u_{{_{A}}}= \frac t{\sqrt {n}}\sqrt {\frac 1{n- 1}\sum _{i= 1}^{n}( x_{i}- \overline {x}) ^{2}}= \frac t{\sqrt {n}}s( x_{{_{I}}})$$
+$$u_{{_{A}}}= \frac t{\sqrt {n}} \sqrt {\frac 1{n- 1}\sum _{i= 1}^{n}( x_{i}- \overline {x}) ^{2}}= \frac t{\sqrt {n}}s( x_{{_{I}}})$$
 
-在大多数普通物理实验教学中， 为了简便起见，一般就取 $\left(t/\sqrt n\right)\thickapprox1$ , 即
+在大多数普通物理实验教学中， 为了简便起见，一般就取 $\dfrac{t}{\sqrt n} \thickapprox 1$ , 即
 
 $$u_\mathrm{A}=s(x_i)$$
 
