@@ -19,9 +19,9 @@ $$s(\overline{x})=\frac{s(x_i)}{\sqrt{n}}$$
 
 通常 A 类标准不确定度由标准偏差 $s(x_i)$ 乘以 $\dfrac{t}{\sqrt n}$ 得到，即
 
-$$u_A = \frac t{\sqrt {n}} \sqrt {\frac 1{n- 1}\sum _{i= 1}^{n}( x_{i}- \overline {x}) ^{2}}= \frac t{\sqrt {n}}s( x_i)$$
+$$u_A = \dfrac{t}{\sqrt {n}} \sqrt {\frac{1}{n - 1} \sum_{i=1}^{n}(x_{i} - \overline{x}) ^{2}}= \frac{t}{\sqrt{n}} s(x_i)$$
 
-在大多数普通物理实验教学中， 为了简便起见，一般就取 $\dfrac{t}{\sqrt n} \thickapprox 1$ , 即
+在大多数普通物理实验教学中，为了简便起见，一般就取 $\dfrac{t}{\sqrt n} \thickapprox 1$ , 即
 
 $$u_A = s(x_i)$$
 
